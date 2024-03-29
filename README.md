@@ -8,7 +8,7 @@ If you plan to deploy and use this in a Production environment please review the
 
 ## Use-case scenario
 
-Simulating [AWS AppFabric](https://docs.aws.amazon.com/appfabric/latest/adminguide/what-is-appfabric.html) OCSF data is difficult to do without an actual enterprise SaaS applications (Octa, Salesforce, Github, etc).  Most applications supported by AWS AppFabric require paid subscriptions.  This solution is used to generate mock data for development or testing other solutions such as: [AppFabric Data Analytics](https://github.com/aws-samples/appfabric-data-analytics)
+Simulating [AWS AppFabric](https://docs.aws.amazon.com/appfabric/latest/adminguide/what-is-appfabric.html) OCSF data is difficult to do without an actual enterprise SaaS applications (Okta, Salesforce, Github, etc).  Most applications supported by AWS AppFabric require paid subscriptions.  This solution is used to generate mock data for development or testing other solutions such as: [AppFabric Data Analytics](https://github.com/aws-samples/appfabric-data-analytics)
 
 At a minimum this solution will produce a .tar file of sample log files that can be downloaded, uncompressed, and saved to an Amazon S3 bucket.  The solution optionally accepts a target S3 Bucket and Amazon Firehose stream.  If specified the sample log files will be automatically saved to S3 and injected into the Firehose stream.
 
