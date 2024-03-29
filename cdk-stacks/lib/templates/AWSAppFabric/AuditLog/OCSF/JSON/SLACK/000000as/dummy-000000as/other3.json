@@ -1,0 +1,60 @@
+{
+    "activity_id":99,
+    "activity_name":"Other",
+    "actor":{
+        "session":{
+            "uid":""
+        },
+        "user":{
+            "email_addr":"",
+            "name":"Slack User",
+            "type":"Unknown",
+            "type_id":0,
+            "uid":"USLACKUSER"
+        }
+    },
+    "category_name":"Identity & Access Management",
+    "category_uid":3,
+    "class_name":"User Access Management",
+    "class_uid":3005,
+    "device":{
+        "ip":"",
+        "type":"Unknown",
+        "type_id":0
+    },
+    "metadata":{
+        "event_code":"permissions_removed",
+        "log_provider":"AWS AppFabric",
+        "log_version":"2023-06-27",
+        "product":{
+            "name":"Slack",
+            "uid":"slack",
+            "vendor_name":"Slack"
+        },
+        "profiles":[
+            "host"
+        ],
+        "uid":"dummy_slack_uid_permissions_removed",
+        "version":"v1.0.0-rc.3"
+    },
+    "privileges":[
+    ],
+    "raw_data":"{}",
+    "resource":{
+        "data":{
+        },
+        "name":"FULL_MEMBER",
+        "type":"account_type_role",
+        "uid":"1001"
+    },
+    "severity_id":0,
+    "status":"Success",
+    "status_id":1,
+    "time":"{timestamp}",
+    "type_name":"User Access Management: Other",
+    "type_uid":300599,
+    "user":{
+        "type":"Unknown",
+        "type_id":0
+    }
+}

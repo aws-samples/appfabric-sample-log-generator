@@ -1,0 +1,71 @@
+{
+    "activity_id":1,
+    "activity_name":"Create",
+    "actor":{
+        "user":{
+            "email_addr":"diego_ramirez@example.com",
+            "name":"Diego Ramirez",
+            "type":"User",
+            "type_id":1,
+            "uid":"dummyuidunknown"
+        }
+    },
+    "category_name":"Identity & Access Management",
+    "category_uid":3,
+    "class_name":"Account Change",
+    "class_uid":3001,
+    "device":{
+        "ip":"",
+        "type":"Unknown",
+        "type_id":0
+    },
+    "http_request":{
+        "user_agent":""
+    },
+    "message":"",
+    "metadata":{
+        "event_code":"memberships created",
+        "log_provider":"AWS AppFabric",
+        "log_version":"2023-06-27",
+        "product":{
+            "name":"Cisco",
+            "uid":"cisco",
+            "vendor_name":"Cisco"
+        },
+        "profiles":[
+            "host"
+        ],
+        "uid":"dummyuidmembershipscreated",
+        "version":"v1.0.0-rc.3"
+    },
+    "raw_data":"{}",
+    "severity_id":0,
+    "status":"Success",
+    "status_id":1,
+    "time":"{timestamp}",
+    "type_name":"Account Change: Create",
+    "type_uid":300101,
+    "unmapped":{
+        "other_resources":[
+            {
+                "data":{
+                },
+                "type":"Room",
+                "uid":"dummyuidroom"
+            },
+            {
+                "data":{
+                },
+                "type":"memberships",
+                "uid":"dummyuidmemberships"
+            }
+        ]
+    },
+    "user":{
+        "email_addr":"diego_ramirez@example.com",
+        "name":"Diego Ramirez",
+        "type":"User",
+        "type_id":1,
+        "uid":"dummyuidunknown"
+    }
+}

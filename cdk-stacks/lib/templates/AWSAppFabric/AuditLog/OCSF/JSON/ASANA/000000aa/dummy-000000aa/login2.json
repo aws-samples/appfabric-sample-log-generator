@@ -1,0 +1,55 @@
+{
+
+    "activity_id":1,
+    "activity_name":"Logon",
+    "actor":{
+        "user":{
+            "email_addr":"jie_liu@example.com",
+            "name":"Jie Liu",
+            "type":"Roe",
+            "type_id":1,
+            "uid":"1234567890123452"
+        }
+    },
+    "category_name":"Identity & Access Management",
+    "category_uid":3,
+    "class_name":"Authentication",
+    "class_uid":3002,
+    "device":{
+        "ip":"72.21.198.67",
+        "type":"Unknown",
+        "type_id":0
+    },
+    "http_request":{
+        "user_agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+    },
+    "metadata":{
+        "event_code":"user_login_succeeded",
+        "log_provider":"AWS AppFabric",
+        "log_version":"2023-06-27",
+        "product":{
+            "name":"Asana",
+            "uid":"asana",
+            "vendor_name":"Asana"
+        },
+        "profiles":[
+            "host"
+        ],
+        "uid":"dummy_asana_uid_service_account_created",
+        "version":"v1.0.0-rc.3"
+    },
+    "raw_data":"{}",
+    "severity_id":0,
+    "status":"Success",
+    "status_id":1,
+    "time":"{timestamp}",
+    "type_name":"Authentication: Logon",
+    "type_uid":300201,
+    "user":{
+        "email_addr":"jie_liu@example.com",
+        "name":"Jie Liu",
+        "type":"User",
+        "type_id":1,
+        "uid":"1234567890123452"
+    }
+}

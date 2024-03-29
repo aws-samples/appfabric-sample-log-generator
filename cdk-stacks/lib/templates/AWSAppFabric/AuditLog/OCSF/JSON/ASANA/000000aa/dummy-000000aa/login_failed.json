@@ -1,0 +1,56 @@
+{
+  "activity_id":1,
+  "activity_name":"Logon",
+  "actor":{
+      "user":{
+          "email_addr":"arnav_desai@example.com",
+          "name":"Arnav Desai",
+          "type":"User",
+          "type_id":1,
+          "uid":"1234567890123456"
+      }
+  },
+  "auth_protocol":"PAP",
+  "auth_protocol_id":7,
+  "category_name":"Identity & Access Management",
+  "category_uid":3,
+  "class_name":"Authentication",
+  "class_uid":3002,
+  "device":{
+      "ip":"52.94.133.142",
+      "type":"Unknown",
+      "type_id":0
+  },
+  "http_request":{
+      "user_agent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:109.0) Gecko/20100101 Firefox/115.0"
+  },
+  "metadata":{
+      "original_event_type": "user_login_failed",
+      "log_provider":"AWS AppFabric",
+      "log_version":"2023-06-27",
+      "product":{
+          "name":"Asana",
+          "uid":"asana",
+          "vendor_name":"Asana"
+      },
+      "profiles":[
+          "host"
+      ],
+      "uid":"dummy_asana_uid_service_account_created",
+      "version":"v1.0.0-rc.3"
+  },
+  "raw_data":"{}",
+  "severity_id":0,
+  "status":"Failure",
+  "status_id":2,
+  "time":"{timestamp}",
+  "type_name":"Authentication: Logon",
+  "type_uid":300201,
+  "user":{
+      "email_addr":"arnav_desai@example.com",
+      "name":"Arnav Desai",
+      "type":"User",
+      "type_id":1,
+      "uid":"1234567890123456"
+  }
+}

@@ -1,0 +1,54 @@
+{
+    "activity_id":4,
+    "activity_name":"Delete",
+    "actor":{
+        "user":{
+            "email_addr":"nikki_wolf@example.com",
+            "name":"Nikki Wolf",
+            "type":"User",
+            "type_id":1,
+            "uid":"120000000077"
+        }
+    },
+    "category_name":"Application",
+    "category_uid":6,
+    "class_name":"Web Resources Activity",
+    "class_uid":6001,
+    "device":{
+        "ip":"44.204.192.158",
+        "type":"Unknown",
+        "type_id":0
+    },
+    "message":"",
+    "metadata":{
+        "event_code":"entity_destroy",
+        "log_provider":"AWS AppFabric",
+        "log_version":"2023-06-27",
+        "product":{
+            "name":"Zendesk",
+            "uid":"zendesk",
+            "vendor_name":"Zendesk"
+        },
+        "profiles":[
+            "host"
+        ],
+        "uid":"dummy_zendesk_entity_destroy",
+        "version":"v1.0.0-rc.3"
+    },
+    "raw_data":"{}",
+    "severity_id":0,
+    "status":"Success",
+    "status_id":1,
+    "time":"{timestamp}",
+    "type_name":"Web Resources Activity: Delete",
+    "type_uid":600104,
+    "web_resources":[
+        {
+            "data":{
+            },
+            "name":"Ticket: #153999",
+            "type":"ticket",
+            "uid":"170000000001"
+        }
+    ]
+}

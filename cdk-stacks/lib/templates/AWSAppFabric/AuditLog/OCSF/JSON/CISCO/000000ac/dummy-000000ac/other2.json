@@ -1,0 +1,54 @@
+{
+    "activity_id":99,
+    "activity_name":"Other",
+    "actor":{
+        "user":{
+            "email_addr":"diego_ramirez@example.com",
+            "name":"Diego Ramirez",
+            "type":"User",
+            "type_id":1,
+            "uid":"dummyuiddiego"
+        }
+    },
+    "category_name":"Application",
+    "category_uid":6,
+    "class_name":"Web Resources Activity",
+    "class_uid":6001,
+    "device":{
+        "ip":"205.251.233.52",
+        "type":"Unknown",
+        "type_id":0
+    },
+    "message":"diego_ramirez@example.com changed user diego_ramirez@example.com, the changed attributes are [displayName, name]. The change source is Webex Web Client. The change detail ID c0000-0000-0000-0000.",
+    "metadata":{
+        "event_code":"user was updated",
+        "log_provider":"AWS AppFabric",
+        "log_version":"2023-06-27",
+        "product":{
+            "name":"Cisco",
+            "uid":"cisco",
+            "vendor_name":"Cisco"
+        },
+        "profiles":[
+            "host"
+        ],
+        "uid":"dummyuiduserupdated",
+        "version":"v1.0.0-rc.3"
+    },
+    "raw_data":"{}",
+    "severity_id":0,
+    "status":"Success",
+    "status_id":1,
+    "time":"{timestamp}",
+    "type_name":"Web Resources Activity: Other",
+    "type_uid":600199,
+    "web_resources":[
+        {
+            "data":{
+            },
+            "name":"Diego Ramirez",
+            "type":"User",
+            "uid":"dummyuiddiego"
+        }
+    ]
+}

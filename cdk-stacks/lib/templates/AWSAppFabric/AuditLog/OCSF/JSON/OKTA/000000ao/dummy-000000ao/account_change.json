@@ -1,0 +1,91 @@
+{
+  "activity_id":99,
+  "activity_name":"Update",
+  "actor":{
+      "session":{
+          "issuer":"",
+          "uid":"session_dummy_001"
+      },
+      "user":{
+          "email_addr":"mateo_jackson@example.com",
+          "name":"Mateo Jackson",
+          "type":"System",
+          "type_id":3,
+          "uid":"dummy_okta_uid_mateo"
+      }
+  },
+  "category_name":"Identity & Access Management",
+  "category_uid":3,
+  "class_name":"Account Change",
+  "class_uid":3001,
+  "device":{
+      "ip":"",
+      "location":{
+          "city":"",
+          "coordinates":[
+          ],
+          "country":"",
+          "postal_code":""
+      },
+      "os":{
+          "name":"",
+          "type":"Unknown",
+          "type_id":0
+      },
+      "type":"Unknown",
+      "type_id":0
+  },
+  "http_request":{
+      "user_agent":""
+  },
+  "message":"Updated user application property",
+  "metadata":{
+      "event_code":"application.user_membership.update",
+      "log_provider":"AWS AppFabric",
+      "log_version":"2023-06-27",
+      "product":{
+          "name":"Okta",
+          "uid":"okta",
+          "vendor_name":"Okta"
+      },
+      "profiles":[
+          "host"
+      ],
+      "uid":"ab72e23e-0bab-11ee-87d8-1924da9c97b9",
+      "version":"v1.0.0-rc.3"
+  },
+  "raw_data":"{}",
+  "severity":"INFO",
+  "severity_id":99,
+  "status":"Success",
+  "status_detail":"",
+  "status_id":1,
+  "time":"{timestamp}",
+  "type_name":"Account Change: Update",
+  "type_uid":300199,
+  "unmapped":{
+      "other_resources":[
+          {
+              "data":{
+              },
+              "name":"Okta Help Center",
+              "type":"AppInstance",
+              "uid":"dummy_okta_uid_helpcenter"
+          },
+          {
+              "data":{
+              },
+              "name":"John Doe",
+              "type":"User",
+              "uid":"dummy_okta_uid_john"
+          }
+      ]
+  },
+  "user":{
+      "email_addr":"john_doe@example.com",
+      "name":"John Doe",
+      "type":"AppUser",
+      "type_id":99,
+      "uid":"dummy_okta_uid_john"
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "activity_id":99,
+  "activity_name":"Enable Resource",
+  "actor":{
+      "session":{
+          "issuer":"",
+          "uid":"session_dummy_006"
+      },
+      "user":{
+          "email_addr":"john_doe@example.com",
+          "name":"John Doe",
+          "type":"User",
+          "type_id":1,
+          "uid":"dummy_okta_uid_john"
+      }
+  },
+  "category_name":"Application",
+  "category_uid":6,
+  "class_name":"Web Resources Activity",
+  "class_uid":6001,
+  "device":{
+    "ip":"69.169.224.132",
+    "location":{
+        "city":"Seattle",
+        "coordinates":[
+            47.5846,
+            -122.3005
+        ],
+        "country":"United States",
+        "postal_code":"98144"
+    },
+    "os":{
+        "name":"Windows 10",
+        "type":"Windows",
+        "type_id":100
+    },
+    "type":"Browser",
+    "type_id":8
+  },
+  "message":"",
+  "metadata":{
+      "event_code":"app.oauth2.client.lifecycle.activate",
+      "log_provider":"AWS AppFabric",
+      "log_version":"2023-06-27",
+      "product":{
+          "name":"Okta",
+          "uid":"okta",
+          "vendor_name":"Okta"
+      },
+      "profiles":[
+          "host"
+      ],
+      "uid":"dummy_okta_uid_user_lifecycle_activate",
+      "version":"v1.0.0-rc.3"
+  },
+  "raw_data":"{}",
+  "severity":"INFO",
+  "severity_id":99,
+  "status":"Success",
+  "status_detail":"",
+  "status_id":1,
+  "time":"{timestamp}",
+  "type_name":"Web Resources Activity: Enable Resource",
+  "type_uid":600199,
+  "web_resources":[
+      {
+          "data":{
+          },
+          "name":"My Web App",
+          "type":"PublicClientAppEntity",
+          "uid":"dummy_okta_uid_publicclientappentity"
+      }
+  ]
+}

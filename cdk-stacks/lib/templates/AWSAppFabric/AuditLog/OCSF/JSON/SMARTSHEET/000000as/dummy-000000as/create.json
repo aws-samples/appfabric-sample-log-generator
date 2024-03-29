@@ -1,0 +1,52 @@
+{
+    "activity_id":1,
+    "activity_name":"Create",
+    "actor":{
+        "user":{
+            "email_addr":"nikki_wolf@example.com",
+            "name":"Nikki Wolf",
+            "type":"User",
+            "type_id":1,
+            "uid":"0000000000004"
+        }
+    },
+    "category_name":"Application",
+    "category_uid":6,
+    "class_name":"Web Resources Activity",
+    "class_uid":6001,
+    "device":{
+        "type":"Unknown",
+        "type_id":0
+    },
+    "metadata":{
+        "event_code":"SHEET - CREATE",
+        "log_provider":"AWS AppFabric",
+        "log_version":"2023-06-27",
+        "product":{
+            "name":"Smartsheet",
+            "uid":"smartsheet",
+            "vendor_name":"Smartsheet"
+        },
+        "profiles":[
+            "host"
+        ],
+        "uid":"dummy_smartsheet_uid_sheet_create",
+        "version":"v1.0.0-rc.3"
+    },
+    "raw_data":"{}",
+    "severity_id":0,
+    "status":"Success",
+    "status_id":1,
+    "time":"{timestamp}",
+    "type_name":"Web Resources Activity: Create",
+    "type_uid":600101,
+    "web_resources":[
+        {
+            "data":{
+            },
+            "name":"ISV Onboarding Form",
+            "type":"SHEET",
+            "uid":"5000000000000"
+        }
+    ]
+}

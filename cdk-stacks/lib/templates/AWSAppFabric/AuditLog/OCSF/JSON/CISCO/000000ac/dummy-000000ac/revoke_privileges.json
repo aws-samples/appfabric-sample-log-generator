@@ -1,0 +1,53 @@
+{
+    "activity_id":2,
+    "activity_name":"Revoke Privileges",
+    "actor":{
+        "user":{
+            "email_addr":"akua_mansa@example.com",
+            "name":"Akua Mansa",
+            "type":"User",
+            "type_id":1,
+            "uid":"dummyuidakua"
+        }
+    },
+    "category_name":"Identity & Access Management",
+    "category_uid":3,
+    "class_name":"User Access Management",
+    "class_uid":3005,
+    "device":{
+        "ip":"0.0.0.0",
+        "type":"Unknown",
+        "type_id":0
+    },
+    "message":"akua_mansa@example.com revoked Webex Meetings Suite account, on site aws-fabric-ds-isv-preprod-5xja.webex.com, from external user diego_ramirez@example.com.",
+    "metadata":{
+        "event_code":"admin has revoked an account from an external user",
+        "log_provider":"AWS AppFabric",
+        "log_version":"2023-06-27",
+        "product":{
+            "name":"Cisco",
+            "uid":"cisco",
+            "vendor_name":"Cisco"
+        },
+        "profiles":[
+            "host"
+        ],
+        "uid":"dummyuidrevoked",
+        "version":"v1.0.0-rc.3"
+    },
+    "privileges":[
+    ],
+    "raw_data":"{}",
+    "severity_id":0,
+    "status":"Success",
+    "status_id":1,
+    "time":"{timestamp}",
+    "type_name":"User Access Management: Revoke Privileges",
+    "type_uid":300502,
+    "user":{
+        "name":"diego_ramirez@example.com",
+        "type":"User",
+        "type_id":1,
+        "uid":"dummyuidiego"
+    }
+}

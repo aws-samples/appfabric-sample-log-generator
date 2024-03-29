@@ -1,0 +1,50 @@
+{
+    "activity_id":1,
+    "activity_name":"Logon",
+    "actor":{
+        "user":{
+            "email_addr":"john_doe@example.com",
+            "name":"John Doe",
+            "type":"User",
+            "type_id":0
+        }
+    },
+    "category_name":"Identity & Access Management",
+    "category_uid":3,
+    "class_name":"Authentication",
+    "class_uid":3002,
+    "device":{
+        "ip":"54.240.198.38",
+        "type":"win",
+        "type_id":99
+    },
+    "http_request":{
+        "user_agent":"win"
+    },
+    "metadata":{
+        "event_code":"sign_in",
+        "log_provider":"AWS AppFabric",
+        "log_version":"2023-06-27",
+        "product":{
+            "name":"Zoom",
+            "uid":"zoom",
+            "vendor_name":"Zoom"
+        },
+        "profiles":[
+            "host"
+        ],
+        "uid":"dummy_zoom_sign_in",
+        "version":"v1.0.0-rc.3"
+    },
+    "raw_data":"{\"time\":\"{date}T20:29:42Z\"}",
+    "severity_id":0,
+    "status":"Success",
+    "status_id":1,
+    "time":"{timestamp}",
+    "type_name":"Authentication: Logon",
+    "type_uid":300201,
+    "user":{
+        "type":"Unknown",
+        "type_id":0
+    }
+}

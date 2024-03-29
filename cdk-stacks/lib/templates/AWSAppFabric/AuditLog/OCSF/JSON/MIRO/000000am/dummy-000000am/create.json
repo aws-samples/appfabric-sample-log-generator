@@ -1,0 +1,60 @@
+{
+    "activity_id":1,
+    "activity_name":"Create",
+    "actor":{
+        "user":{
+            "email_addr":"kwaku_mensah@example.com",
+            "name":"Kwaku Mensah",
+            "type":"User",
+            "type_id":1,
+            "uid":"12345678901234"
+        }
+    },
+    "category_name":"Application",
+    "category_uid":6,
+    "class_name":"Web Resources Activity",
+    "class_uid":6001,
+    "device":{
+        "ip":"205.251.233.183",
+        "type":"Unknown",
+        "type_id":0
+    },
+    "metadata":{
+        "event_code":"board_created",
+        "log_provider":"AWS AppFabric",
+        "log_version":"2023-06-27",
+        "product":{
+            "name":"Miro",
+            "uid":"miro",
+            "vendor_name":"Miro"
+        },
+        "profiles":[
+            "host"
+        ],
+        "uid":"2023-01-01T00:00:00.816340Z#00000000000001-DDB",
+        "version":"v1.0.0-rc.3"
+    },
+    "raw_data":"{}",
+    "severity_id":0,
+    "status":"Success",
+    "status_id":1,
+    "time":"{timestamp}",
+    "type_name":"Web Resources Activity: Create",
+    "type_uid":600101,
+    "web_resources":[
+        {
+            "data":{
+            },
+            "name":"Kwaku Mensah",
+            "type":"Unknown",
+            "uid":"12345678901234"
+        },
+        {
+            "data":{
+            },
+            "name":"AWS Fabric - Integration",
+            "type":"team",
+            "uid":"123456789000000"
+        }
+    ]
+}

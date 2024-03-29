@@ -1,0 +1,70 @@
+{
+    "activity_id":2,
+    "activity_name":"Read",
+    "actor":{
+        "session":{
+            "uid":"dbwsid:01234567894"
+        },
+        "user":{
+            "email_addr":"nikki_wolf@example.com",
+            "name":"Nikki Wolf",
+            "type":"Admin",
+            "type_id":2,
+            "uid":"dbid:dummyuidnikki"
+        }
+    },
+    "category_name":"Application",
+    "category_uid":6,
+    "class_name":"Web Resources Activity",
+    "class_uid":6001,
+    "device":{
+        "ip":"205.251.233.182",
+        "location":{
+            "city":"Boardman",
+            "coordinates":[
+            ],
+            "country":"US"
+        },
+        "type":"web",
+        "type_id":99
+    },
+    "message":"Previewed files and/or folders",
+    "metadata":{
+        "event_code":"file_preview",
+        "log_provider":"AWS AppFabric",
+        "log_version":"2023-06-27",
+        "product":{
+            "name":"Dropbox",
+            "uid":"dropbox",
+            "vendor_name":"Dropbox"
+        },
+        "profiles":[
+            "host"
+        ],
+        "uid":"fabric-dummy-file-preview",
+        "version":"v1.0.0-rc.3"
+    },
+    "raw_data":"{}",
+    "severity_id":0,
+    "status":"Success",
+    "status_id":1,
+    "time":"{timestamp}",
+    "type_name":"Web Resources Activity: Read",
+    "type_uid":600102,
+    "web_resources":[
+        {
+            "data":{
+            },
+            "name":"Nikki Wolf",
+            "type":"User",
+            "uid":"dbid:dummyuidnikki"
+        },
+        {
+            "data":{
+            },
+            "name":"Untitled.paper",
+            "type":"file",
+            "uid":"id:dummyuiduntitled"
+        }
+    ]
+}

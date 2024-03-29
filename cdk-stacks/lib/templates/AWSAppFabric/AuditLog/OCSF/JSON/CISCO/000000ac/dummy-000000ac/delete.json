@@ -1,0 +1,54 @@
+{
+    "activity_id":6,
+    "activity_name":"Delete",
+    "actor":{
+        "user":{
+            "email_addr":"akua_mansa@example.com",
+            "name":"Akua Mansa",
+            "type":"User",
+            "type_id":1,
+            "uid":"dummyuidakua"
+        }
+    },
+    "category_name":"Identity & Access Management",
+    "category_uid":3,
+    "class_name":"Account Change",
+    "class_uid":3001,
+    "device":{
+        "ip":"52.95.4.6",
+        "type":"Unknown",
+        "type_id":0
+    },
+    "http_request":{
+        "user_agent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:102.0) Gecko/20100101 Firefox/102.0"
+    },
+    "message":"akua_mansa@example.com deleted user User Two-prod.",
+    "metadata":{
+        "event_code":"user was deleted",
+        "log_provider":"AWS AppFabric",
+        "log_version":"2023-06-27",
+        "product":{
+            "name":"Cisco",
+            "uid":"cisco",
+            "vendor_name":"Cisco"
+        },
+        "profiles":[
+            "host"
+        ],
+        "uid":"dummyuiduserwasdeleted",
+        "version":"v1.0.0-rc.3"
+    },
+    "raw_data":"{}",
+    "severity_id":0,
+    "status":"Success",
+    "status_id":1,
+    "time":"{timestamp}",
+    "type_name":"Account Change: Delete",
+    "type_uid":300106,
+    "user":{
+        "name":"User Two-prod",
+        "type":"User",
+        "type_id":1,
+        "uid":"dummyuiduser"
+    }
+}

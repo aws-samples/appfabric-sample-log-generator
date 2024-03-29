@@ -1,0 +1,53 @@
+{
+    "activity_id":99,
+    "activity_name":"Update",
+    "actor":{
+        "user":{
+            "email_addr":"nikki_wolf@example.com",
+            "name":"Nikki Wolf",
+            "type":"User",
+            "type_id":1,
+            "uid":"120000000077"
+        }
+    },
+    "category_name":"Identity & Access Management",
+    "category_uid":3,
+    "class_name":"Account Change",
+    "class_uid":3001,
+    "device":{
+        "ip":"54.82.92.174",
+        "type":"Unknown",
+        "type_id":0
+    },
+    "http_request":{
+    },
+    "message":"Started 30-day deletion",
+    "metadata":{
+        "event_code":"user_update",
+        "log_provider":"AWS AppFabric",
+        "log_version":"2023-06-27",
+        "product":{
+            "name":"Zendesk",
+            "uid":"zendesk",
+            "vendor_name":"Zendesk"
+        },
+        "profiles":[
+            "host"
+        ],
+        "uid":"dummy_zendesk_user_update",
+        "version":"v1.0.0-rc.3"
+    },
+    "raw_data":"{}",
+    "severity_id":0,
+    "status":"Success",
+    "status_id":1,
+    "time":"{timestamp}",
+    "type_name":"Account Change: Update",
+    "type_uid":300199,
+    "user":{
+        "name":"Customer: 8349 charlie",
+        "type":"User",
+        "type_id":1,
+        "uid":"170000000081"
+    }
+}

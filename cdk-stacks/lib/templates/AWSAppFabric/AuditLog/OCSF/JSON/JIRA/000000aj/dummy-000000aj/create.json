@@ -1,0 +1,63 @@
+{
+    "activity_id":1,
+    "activity_name":"Create",
+    "actor":{
+        "user":{
+            "name":"000000:dummy-0000-0000-abcdef",
+            "type":"User",
+            "type_id":1,
+            "uid":"000000:dummy-0000-0000-abcdef"
+        }
+    },
+    "category_name":"Identity & Access Management",
+    "category_uid":3,
+    "class_name":"Account Change",
+    "class_uid":3001,
+    "device":{
+        "ip":"",
+        "type":"Unknown",
+        "type_id":0
+    },
+    "http_request":{
+    },
+    "message":"",
+    "metadata":{
+        "event_code":"User created",
+        "log_provider":"AWS AppFabric",
+        "log_version":"2023-06-27",
+        "product":{
+            "name":"Jira",
+            "uid":"jira",
+            "vendor_name":"Jira"
+        },
+        "profiles":[
+            "host"
+        ],
+        "uid":"10157",
+        "version":"v1.0.0-rc.3"
+    },
+    "raw_data":"{}",
+    "severity_id":0,
+    "status":"Success",
+    "status_id":1,
+    "time":"{timestamp}",
+    "type_name":"Account Change: Create",
+    "type_uid":300101,
+    "unmapped":{
+        "other_resources":[
+            {
+                "data":{
+                },
+                "name":"000000:dummy-0000-0000-abcdef",
+                "type":"User",
+                "uid":"000000:dummy-0000-0000-abcdef"
+            }
+        ]
+    },
+    "user":{
+        "name":"000000:dummy-0000-0000-abcdef",
+        "type":"User",
+        "type_id":1,
+        "uid":"000000:dummy-0000-0000-abcdef"
+    }
+}

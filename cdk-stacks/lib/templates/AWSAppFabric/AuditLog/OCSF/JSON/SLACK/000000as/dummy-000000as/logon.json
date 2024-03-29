@@ -1,0 +1,57 @@
+{
+    "activity_id":1,
+    "activity_name":"Logon",
+    "actor":{
+        "session":{
+            "uid":"5892601532658"
+        },
+        "user":{
+            "email_addr":"nikki_wolf@example.com",
+            "name":"Nikki Wolf",
+            "type":"User",
+            "type_id":1,
+            "uid":"UDUMMYG771"
+        }
+    },
+    "category_name":"Identity & Access Management",
+    "category_uid":3,
+    "class_name":"Authentication",
+    "class_uid":3002,
+    "device":{
+        "ip":"205.251.233.234",
+        "type":"Unknown",
+        "type_id":0
+    },
+    "http_request":{
+        "user_agent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+    },
+    "metadata":{
+        "event_code":"user_login",
+        "log_provider":"AWS AppFabric",
+        "log_version":"2023-06-27",
+        "product":{
+            "name":"Slack",
+            "uid":"slack",
+            "vendor_name":"Slack"
+        },
+        "profiles":[
+            "host"
+        ],
+        "uid":"dummy_slack_uid_user_login",
+        "version":"v1.0.0-rc.3"
+    },
+    "raw_data":"{}",
+    "severity_id":0,
+    "status":"Success",
+    "status_id":1,
+    "time":"{timestamp}",
+    "type_name":"Authentication: Logon",
+    "type_uid":300201,
+    "user":{
+        "email_addr":"nikki_wolf@example.com",
+        "name":"Nikki Wolf",
+        "type":"User",
+        "type_id":1,
+        "uid":"UDUMMYG771"
+    }
+}

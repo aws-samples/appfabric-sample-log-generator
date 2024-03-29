@@ -1,0 +1,56 @@
+{
+    "activity_id":99,
+    "activity_name":"Other",
+    "actor":{
+        "session":{
+            "uid":"5393840333878"
+        },
+        "user":{
+            "email_addr":"nikki_wolf@example.com",
+            "name":"Nikki Wolf",
+            "type":"User",
+            "type_id":1,
+            "uid":"UDUMMY887P"
+        }
+    },
+    "category_name":"Application",
+    "category_uid":6,
+    "class_name":"Web Resources Activity",
+    "class_uid":6001,
+    "device":{
+        "ip":"205.251.233.178",
+        "type":"Unknown",
+        "type_id":0
+    },
+    "metadata":{
+        "event_code":"app_collaborator_added",
+        "log_provider":"AWS AppFabric",
+        "log_version":"2023-06-27",
+        "product":{
+            "name":"Slack",
+            "uid":"slack",
+            "vendor_name":"Slack"
+        },
+        "profiles":[
+            "host"
+        ],
+        "uid":"dummy_slack_uid_app_collaborator_added",
+        "version":"v1.0.0-rc.3"
+    },
+    "raw_data":"{}",
+    "severity_id":0,
+    "status":"Success",
+    "status_id":1,
+    "time":"{timestamp}",
+    "type_name":"Web Resources Activity: Other",
+    "type_uid":600199,
+    "web_resources":[
+        {
+            "data":{
+            },
+            "name":"AppFabric731",
+            "type":"app",
+            "uid":"UDUMMY3T41"
+        }
+    ]
+}

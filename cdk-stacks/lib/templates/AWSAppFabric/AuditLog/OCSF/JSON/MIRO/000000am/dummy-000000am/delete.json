@@ -1,0 +1,60 @@
+{
+  "activity_id":4,
+  "activity_name":"Delete",
+  "actor":{
+      "user":{
+          "email_addr":"jie_liu@example.com",
+          "name":"Jie Liu",
+          "type":"User",
+          "type_id":1,
+          "uid":"12345678901233"
+      }
+  },
+  "category_name":"Application",
+  "category_uid":6,
+  "class_name":"Web Resources Activity",
+  "class_uid":6001,
+  "device":{
+      "ip":"54.240.96.2",
+      "type":"Unknown",
+      "type_id":0
+  },
+  "metadata":{
+      "event_code":"board_deleted",
+      "log_provider":"AWS AppFabric",
+      "log_version":"2023-06-27",
+      "product":{
+          "name":"Miro",
+          "uid":"miro",
+          "vendor_name":"Miro"
+      },
+      "profiles":[
+          "host"
+      ],
+      "uid":"2023-01-01T00:00:00.816340Z#00000000000002-DDB",
+      "version":"v1.0.0-rc.3"
+  },
+  "raw_data":"{}",
+  "severity_id":0,
+  "status":"Success",
+  "status_id":1,
+  "time":"{timestamp}",
+  "type_name":"Web Resources Activity: Delete",
+  "type_uid":600104,
+  "web_resources":[
+      {
+          "data":{
+          },
+          "name":"Secrets",
+          "type":"Unknown",
+          "uid":"3458764557764945249"
+      },
+      {
+          "data":{
+          },
+          "name":"AWS Fabric - Integration",
+          "type":"team",
+          "uid":"3458764552286629187"
+      }
+  ]
+}

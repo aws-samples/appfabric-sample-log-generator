@@ -1,0 +1,64 @@
+{
+    "activity_id":2,
+    "activity_name":"Logoff",
+    "actor":{
+        "session":{
+            "uid":"dbwsid:01234567892"
+        },
+        "user":{
+            "email_addr":"nikki_wolf@example.com",
+            "name":"Nikki Wolf",
+            "type":"Admin",
+            "type_id":2,
+            "uid":"dbid:dummyuidnikki"
+        }
+    },
+    "category_name":"Identity & Access Management",
+    "category_uid":3,
+    "class_name":"Authentication",
+    "class_uid":3002,
+    "device":{
+        "ip":"205.251.233.182",
+        "location":{
+            "city":"Boardman",
+            "coordinates":[
+            ],
+            "country":"US"
+        },
+        "type":"web",
+        "type_id":99
+    },
+    "http_request":{
+    },
+    "is_mfa":false,
+    "message":"Signed out",
+    "metadata":{
+        "event_code":"logout",
+        "log_provider":"AWS AppFabric",
+        "log_version":"2023-06-27",
+        "product":{
+            "name":"Dropbox",
+            "uid":"dropbox",
+            "vendor_name":"Dropbox"
+        },
+        "profiles":[
+            "host"
+        ],
+        "uid":"fabric-dummy-logout",
+        "version":"v1.0.0-rc.3"
+    },
+    "raw_data":"{}",
+    "severity_id":0,
+    "status":"Success",
+    "status_id":1,
+    "time":"{timestamp}",
+    "type_name":"Authentication: Logoff",
+    "type_uid":300202,
+    "user":{
+        "email_addr":"nikki_wolf@example.com",
+        "name":"Nikki Wolf",
+        "type":"User",
+        "type_id":1,
+        "uid":"dbid:dummyuidnikki"
+    }
+}

@@ -1,0 +1,57 @@
+{
+    "activity_id":3,
+    "activity_name":"Add User",
+    "actor":{
+        "user":{
+            "name":"000000:dummy-0000-0000-abcdef",
+            "type":"User",
+            "type_id":1,
+            "uid":"000000:dummy-0000-0000-abcdef"
+        }
+    },
+    "category_name":"Identity & Access Management",
+    "category_uid":3,
+    "class_name":"Group Management",
+    "class_uid":3006,
+    "device":{
+        "ip":"",
+        "type":"Unknown",
+        "type_id":0
+    },
+    "group":{
+        "name":"jira-workmanagement-users-aws-fabric-dummy",
+        "type":"GROUP",
+        "uid":""
+    },
+    "message":"",
+    "metadata":{
+        "event_code":"User added to group",
+        "log_provider":"AWS AppFabric",
+        "log_version":"2023-06-27",
+        "product":{
+            "name":"Jira",
+            "uid":"jira",
+            "vendor_name":"Jira"
+        },
+        "profiles":[
+            "host"
+        ],
+        "uid":"10160",
+        "version":"v1.0.0-rc.3"
+    },
+    "privileges":[
+    ],
+    "raw_data":"{}",
+    "severity_id":0,
+    "status":"Success",
+    "status_id":1,
+    "time":"{timestamp}",
+    "type_name":"Group Management: Add User",
+    "type_uid":300603,
+    "user":{
+        "name":"000000:dummy-0000-0000-abcdef",
+        "type":"User",
+        "type_id":1,
+        "uid":"000000:dummy-0000-0000-abcdef"
+    }
+}

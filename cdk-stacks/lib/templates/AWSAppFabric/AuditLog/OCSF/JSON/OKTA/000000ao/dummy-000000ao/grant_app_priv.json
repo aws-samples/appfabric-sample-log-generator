@@ -1,0 +1,81 @@
+{
+  "activity_id":99,
+  "activity_name":"Grant App Privileges",
+  "actor":{
+      "session":{
+          "issuer":"",
+          "uid":"unknown"
+      },
+      "user":{
+          "email_addr":"dummy_okta_uid_demo",
+          "name":"AppFabricOktaDemo",
+          "type":"APP",
+          "type_id":99,
+          "uid":"dummy_okta_uid_demo"
+      }
+  },
+  "category_name":"Application",
+  "category_uid":6,
+  "class_name":"Web Resources Activity",
+  "class_uid":6001,
+  "device":{
+      "ip":"54.147.196.6",
+      "location":{
+          "city":"Ashburn",
+          "coordinates":[
+              39.0469,
+              -77.4903
+          ],
+          "country":"United States",
+          "postal_code":"20149"
+      },
+      "os":{
+          "name":"Unknown",
+          "type":"Unknown",
+          "type_id":0
+      },
+      "type":"Unknown",
+      "type_id":0
+  },
+  "message":"OIDC access token is granted",
+  "metadata":{
+      "event_code":"app.oauth2.token.grant.access_token",
+      "log_provider":"AWS AppFabric",
+      "log_version":"2023-06-27",
+      "product":{
+          "name":"Okta",
+          "uid":"okta",
+          "vendor_name":"Okta"
+      },
+      "profiles":[
+          "host"
+      ],
+      "uid":"833c88a2-0bc1-11ee-9886-27787417fc80",
+      "version":"v1.0.0-rc.3"
+  },
+  "raw_data":"{}",
+  "severity":"INFO",
+  "severity_id":99,
+  "status":"Success",
+  "status_detail":"",
+  "status_id":1,
+  "time":"{timestamp}",
+  "type_name":"Web Resources Activity: Grant App Privileges",
+  "type_uid":600199,
+  "web_resources":[
+      {
+          "data":{
+          },
+          "name":"",
+          "type":"User",
+          "uid":"dummy_okta_uid_demo"
+      },
+      {
+          "data":{
+          },
+          "name":"Access Token",
+          "type":"access_token",
+          "uid":"dummy_okta_uid_access_token"
+      }
+  ]
+}

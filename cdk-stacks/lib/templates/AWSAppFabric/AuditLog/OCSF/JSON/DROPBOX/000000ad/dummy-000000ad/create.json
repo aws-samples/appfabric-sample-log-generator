@@ -1,0 +1,67 @@
+{
+    "activity_id":1,
+    "activity_name":"Create",
+    "actor":{
+        "user":{
+            "email_addr":"nikki_wolf@example.com",
+            "name":"Nikki Wolf",
+            "type":"Admin",
+            "type_id":2,
+            "uid":"dbid:dummyuidnikki"
+        }
+    },
+    "category_name":"Application",
+    "category_uid":6,
+    "class_name":"Web Resources Activity",
+    "class_uid":6001,
+    "device":{
+        "ip":"",
+        "location":{
+            "city":"",
+            "coordinates":[
+            ],
+            "country":""
+        },
+        "type":"Unknown",
+        "type_id":0
+    },
+    "message":"Created shared link",
+    "metadata":{
+        "event_code":"shared_link_create",
+        "log_provider":"AWS AppFabric",
+        "log_version":"2023-06-27",
+        "product":{
+            "name":"Dropbox",
+            "uid":"dropbox",
+            "vendor_name":"Dropbox"
+        },
+        "profiles":[
+            "host"
+        ],
+        "uid":"fabric-dummy-shared-link",
+        "version":"v1.0.0-rc.3"
+    },
+    "raw_data":"{}",
+    "severity_id":0,
+    "status":"Success",
+    "status_id":1,
+    "time":"{timestamp}",
+    "type_name":"Web Resources Activity: Create",
+    "type_uid":600101,
+    "web_resources":[
+        {
+            "data":{
+            },
+            "name":"Nikki Wolf",
+            "type":"User",
+            "uid":"dbid:dummyuidnikki"
+        },
+        {
+            "data":{
+            },
+            "name":"Untitled.papert",
+            "type":"file",
+            "uid":"id:dummyuiduntitled"
+        }
+    ]
+}

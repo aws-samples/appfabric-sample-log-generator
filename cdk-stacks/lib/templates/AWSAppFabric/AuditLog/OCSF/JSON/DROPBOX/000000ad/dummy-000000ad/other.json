@@ -1,0 +1,59 @@
+{
+    "activity_id":99,
+    "activity_name":"Other",
+    "actor":{
+        "user":{
+            "name":"Nikki Wolf",
+            "type":"App",
+            "type_id":99,
+            "uid":"dbaid:dummyuidnikki"
+        }
+    },
+    "category_name":"Application",
+    "category_uid":6,
+    "class_name":"Web Resources Activity",
+    "class_uid":6001,
+    "device":{
+        "ip":"54.175.60.192",
+        "location":{
+            "city":"Ashburn",
+            "coordinates":[
+            ],
+            "country":"US"
+        },
+        "type":"Unknown",
+        "type_id":0
+    },
+    "message":"Linked app for member",
+    "metadata":{
+        "event_code":"app_link_user",
+        "log_provider":"AWS AppFabric",
+        "log_version":"2023-06-27",
+        "product":{
+            "name":"Dropbox",
+            "uid":"dropbox",
+            "vendor_name":"Dropbox"
+        },
+        "profiles":[
+            "host"
+        ],
+        "uid":"fabric-dummy-app-link-user",
+        "version":"v1.0.0-rc.3"
+    },
+    "raw_data":"{}",
+    "severity_id":0,
+    "status":"Success",
+    "status_id":1,
+    "time":"{timestamp}",
+    "type_name":"Web Resources Activity: Other",
+    "type_uid":600199,
+    "web_resources":[
+        {
+            "data":{
+            },
+            "name":"Nikki Wolf",
+            "type":"User",
+            "uid":"dbid:dummyuidnikki"
+        }
+    ]
+}

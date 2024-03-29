@@ -1,0 +1,72 @@
+{
+  "activity_id":99,
+  "activity_name":"Install ThirdParty App",
+  "actor":{
+      "session":{
+          "issuer":"",
+          "uid":"unknown"
+      },
+      "user":{
+          "email_addr":"mateo_jackson@example.com",
+          "name":"Mateo Jackson",
+          "type":"System",
+          "type_id":3,
+          "uid":"dummy_okta_uid_mateo"
+      }
+  },
+  "category_name":"Application",
+  "category_uid":6,
+  "class_name":"Web Resources Activity",
+  "class_uid":6001,
+  "device":{
+      "ip":"",
+      "location":{
+          "city":"",
+          "coordinates":[
+          ],
+          "country":"",
+          "postal_code":""
+      },
+      "os":{
+          "name":"",
+          "type":"Unknown",
+          "type_id":0
+      },
+      "type":"Unknown",
+      "type_id":0
+  },
+  "message":"Authorization server is created.",
+  "metadata":{
+      "event_code":"oauth2.as.created",
+      "log_provider":"AWS AppFabric",
+      "log_version":"2023-06-27",
+      "product":{
+          "name":"Okta",
+          "uid":"okta",
+          "vendor_name":"Okta"
+      },
+      "profiles":[
+          "host"
+      ],
+      "uid":"dummy_okta_uid_demo_as_created",
+      "version":"v1.0.0-rc.3"
+  },
+  "raw_data":"{}",
+  "severity":"INFO",
+  "severity_id":99,
+  "status":"Success",
+  "status_detail":"",
+  "status_id":1,
+  "time":"{timestamp}",
+  "type_name":"Web Resources Activity: Install ThirdParty App",
+  "type_uid":600199,
+  "web_resources":[
+      {
+          "data":{
+          },
+          "name":"default",
+          "type":"AuthorizationServerEntity",
+          "uid":"dummy_okta_uid_authorizationserverentity"
+      }
+  ]
+}

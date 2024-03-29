@@ -1,0 +1,52 @@
+{
+    "activity_id":4,
+    "activity_name":"Remove User",
+    "actor":{
+        "user":{
+            "email_addr":"jane_doe@example.com",
+            "name":"Jane Doe",
+            "type":"User",
+            "type_id":1
+        }
+    },
+    "category_name":"Identity & Access Management",
+    "category_uid":3,
+    "class_name":"Group Management",
+    "class_uid":3006,
+    "device":{
+        "type":"Unknown",
+        "type_id":0
+    },
+    "group":{
+        "type":"User Group"
+    },
+    "message":"Delete Group Admins for beta-group_Do_Not_Delete - akua_mansa@example.com",
+    "metadata":{
+        "event_code":"usergroup_deletegroupadmin",
+        "log_provider":"AWS AppFabric",
+        "log_version":"2023-06-27",
+        "product":{
+            "name":"Zoom",
+            "uid":"zoom",
+            "vendor_name":"Zoom"
+        },
+        "profiles":[
+            "host"
+        ],
+        "uid":"dummy_zoom_usergroup_deletegroupadmin",
+        "version":"v1.0.0-rc.3"
+    },
+    "privileges":[
+    ],
+    "raw_data":"{\"time\":\"{date}T23:57:29Z\"}",
+    "severity_id":0,
+    "status":"Success",
+    "status_id":1,
+    "time":"{timestamp}",
+    "type_name":"Group Management: Remove User",
+    "type_uid":300604,
+    "user":{
+        "type":"Unknown",
+        "type_id":0
+    }
+}

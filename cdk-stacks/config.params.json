@@ -1,0 +1,24 @@
+{
+    "CdkAppName": "AFDemoDataGen",
+    "CdkBackendStack": "AFDemoDataGenBackend",
+    "hierarchy": "/AFDemoDataGen/",
+    "parameters": [
+        {
+            "name": "appFabricDataSourceS3URI",
+            "cliFormat": "appfabric-data-source-s3-uri",
+            "description": "(Optional) The S3 uri of the AppFabric data source. For example, enter s3://MyBucket/. The solution will output sample logs to this location.",
+            "required": false
+        },
+        {
+            "name": "kinesisFirehoseARN",
+            "cliFormat": "kinesis-firehose-arn",
+            "description": "(Optional) If specified the solution will also inject records into the given Kinesis Firehose ARN",
+            "required": false
+        }
+    ],
+    "tags": {
+        "project": "AppFabric Sample Log Generator starter project",
+        "os-code-source": "https://github.com/aws-samples/appfabric-sample-log-generator"
+    }
+
+}

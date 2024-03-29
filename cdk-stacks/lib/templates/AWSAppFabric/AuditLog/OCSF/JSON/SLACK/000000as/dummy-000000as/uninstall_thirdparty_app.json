@@ -1,0 +1,56 @@
+{
+    "activity_id":99,
+    "activity_name":"Uninstall ThirdParty App",
+    "actor":{
+        "session":{
+            "uid":"5393840333878"
+        },
+        "user":{
+            "email_addr":"",
+            "name":"Slack User",
+            "type":"Unknown",
+            "type_id":0,
+            "uid":"USLACKUSER"
+        }
+    },
+    "category_name":"Application",
+    "category_uid":6,
+    "class_name":"Web Resources Activity",
+    "class_uid":6001,
+    "device":{
+        "ip":"69.169.224.24",
+        "type":"Unknown",
+        "type_id":0
+    },
+    "metadata":{
+        "event_code":"app_uninstalled",
+        "log_provider":"AWS AppFabric",
+        "log_version":"2023-06-27",
+        "product":{
+            "name":"Slack",
+            "uid":"slack",
+            "vendor_name":"Slack"
+        },
+        "profiles":[
+            "host"
+        ],
+        "uid":"dummy_slack_uid_app_uninstalled",
+        "version":"v1.0.0-rc.3"
+    },
+    "raw_data":"{}",
+    "severity_id":0,
+    "status":"Success",
+    "status_id":1,
+    "time":"{timestamp}",
+    "type_name":"Web Resources Activity: Uninstall ThirdParty App",
+    "type_uid":600199,
+    "web_resources":[
+        {
+            "data":{
+            },
+            "name":"AppFabricDummyApp",
+            "type":"app",
+            "uid":"UDUMMY7MJ9"
+        }
+    ]
+}

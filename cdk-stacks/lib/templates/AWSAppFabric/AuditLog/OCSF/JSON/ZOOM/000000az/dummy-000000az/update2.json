@@ -1,0 +1,45 @@
+{
+    "activity_id":3,
+    "activity_name":"Update",
+    "actor":{
+        "user":{
+            "email_addr":"nikhil_jayashankar@example.com",
+            "name":"Nikhil Jayashankar",
+            "type":"User",
+            "type_id":1
+        }
+    },
+    "category_name":"Application",
+    "category_uid":6,
+    "class_name":"Web Resources Activity",
+    "class_uid":6001,
+    "device":{
+        "type":"Unknown",
+        "type_id":0
+    },
+    "message":"Change Role : 1 - john_doe@example.com: from Admin to Member",
+    "metadata":{
+        "event_code":"entity_restapi-update",
+        "log_provider":"AWS AppFabric",
+        "log_version":"2023-06-27",
+        "product":{
+            "name":"Zoom",
+            "uid":"zoom",
+            "vendor_name":"Zoom"
+        },
+        "profiles":[
+            "host"
+        ],
+        "uid":"dummy_zoom_entity_restapi-update",
+        "version":"v1.0.0-rc.3"
+    },
+    "raw_data":"{\"time\":\"{date}T23:56:58Z\"}",
+    "severity_id":0,
+    "status":"Success",
+    "status_id":1,
+    "time":"{timestamp}",
+    "type_name":"Web Resources Activity: Update",
+    "type_uid":600103,
+    "web_resources":[
+    ]
+}

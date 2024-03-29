@@ -1,0 +1,58 @@
+{
+    "activity_id":1,
+    "activity_name":"Assign Privileges",
+    "actor":{
+        "user":{
+            "email_addr":"nikki_wolf@example.com",
+            "name":"Nikki Wolf",
+            "type":"User",
+            "type_id":1,
+            "uid":"0000000000004"
+        }
+    },
+    "category_name":"Identity & Access Management",
+    "category_uid":3,
+    "class_name":"Group Management",
+    "class_uid":3006,
+    "device":{
+        "type":"Unknown",
+        "type_id":0
+    },
+    "group":{
+        "type":"Unknown"
+    },
+    "metadata":{
+        "event_code":"ACCESS_TOKEN - REFRESH",
+        "log_provider":"AWS AppFabric",
+        "log_version":"2023-06-27",
+        "product":{
+            "name":"Smartsheet",
+            "uid":"smartsheet",
+            "vendor_name":"Smartsheet"
+        },
+        "profiles":[
+            "host"
+        ],
+        "uid":"dummy_smartsheet_uid_access_token_refresh",
+        "version":"v1.0.0-rc.3"
+    },
+    "privileges":[
+    ],
+    "raw_data":"{}",
+    "resource":{
+        "data":{
+        },
+        "type":"ACCESS_TOKEN",
+        "uid":"3000000000002"
+    },
+    "severity_id":0,
+    "status":"Success",
+    "status_id":1,
+    "time":"{timestamp}",
+    "type_name":"Group Management: Assign Privileges",
+    "type_uid":300601,
+    "user":{
+        "type":"Unknown",
+        "type_id":0
+    }
+}

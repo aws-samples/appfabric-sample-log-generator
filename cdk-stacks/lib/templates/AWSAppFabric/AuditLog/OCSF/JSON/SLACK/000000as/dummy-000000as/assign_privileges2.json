@@ -1,0 +1,60 @@
+{
+    "activity_id":1,
+    "activity_name":"Assign Privileges",
+    "actor":{
+        "session":{
+            "uid":"5407468915830"
+        },
+        "user":{
+            "email_addr":"nikki_wolf@example.com",
+            "name":"Nikki Wolf",
+            "type":"User",
+            "type_id":1,
+            "uid":"UDUMMYG771"
+        }
+    },
+    "category_name":"Identity & Access Management",
+    "category_uid":3,
+    "class_name":"User Access Management",
+    "class_uid":3005,
+    "device":{
+        "ip":"69.169.224.132",
+        "type":"Unknown",
+        "type_id":0
+    },
+    "metadata":{
+        "event_code":"user_channel_join",
+        "log_provider":"AWS AppFabric",
+        "log_version":"2023-06-27",
+        "product":{
+            "name":"Slack",
+            "uid":"slack",
+            "vendor_name":"Slack"
+        },
+        "profiles":[
+            "host"
+        ],
+        "uid":"dummy_slack_uid_user_channel_join",
+        "version":"v1.0.0-rc.3"
+    },
+    "privileges":[
+    ],
+    "raw_data":"{}",
+    "resource":{
+        "data":{
+        },
+        "name":"general",
+        "type":"channel",
+        "uid":"C02K75YDZ2S"
+    },
+    "severity_id":0,
+    "status":"Success",
+    "status_id":1,
+    "time":"{timestamp}",
+    "type_name":"User Access Management: Assign Privileges",
+    "type_uid":300501,
+    "user":{
+        "type":"Unknown",
+        "type_id":0
+    }
+}

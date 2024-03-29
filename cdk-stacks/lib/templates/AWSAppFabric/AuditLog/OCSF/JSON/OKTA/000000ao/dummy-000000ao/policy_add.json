@@ -1,0 +1,84 @@
+{
+  "activity_id":3,
+  "activity_name":"Update Configuration",
+  "actor":{
+      "session":{
+          "issuer":"",
+          "uid":"unknown"
+      },
+      "user":{
+          "email_addr":"mateo_jackson@example.com",
+          "name":"Mateo Jackson",
+          "type":"System",
+          "type_id":3,
+          "uid":"dummy_okta_uid_mateo"
+      }
+  },
+  "category_name":"Application",
+  "category_uid":6,
+  "class_name":"Web Resources Activity",
+  "class_uid":6001,
+  "device":{
+      "ip":"",
+      "location":{
+          "city":"",
+          "coordinates":[
+          ],
+          "country":"",
+          "postal_code":""
+      },
+      "os":{
+          "name":"",
+          "type":"Unknown",
+          "type_id":0
+      },
+      "type":"Unknown",
+      "type_id":0
+  },
+  "message":"Add policy rule",
+  "metadata":{
+      "event_code":"policy.rule.add",
+      "log_provider":"AWS AppFabric",
+      "log_version":"2023-06-27",
+      "product":{
+          "name":"Okta",
+          "uid":"okta",
+          "vendor_name":"Okta"
+      },
+      "profiles":[
+          "host"
+      ],
+      "uid":"dummy_okta_uid_policy_rule_add",
+      "version":"v1.0.0-rc.3"
+  },
+  "raw_data":"{}",
+  "severity":"INFO",
+  "severity_id":99,
+  "status":"Success",
+  "status_detail":"",
+  "status_id":1,
+  "time":"{timestamp}",
+  "type_name":"Web Resources Activity: Update Configuration",
+  "type_uid":600103,
+  "web_resources":[
+      {
+          "data":{
+          },
+          "type":"Configuration"
+      },
+      {
+          "data":{
+          },
+          "name":"Idp Discovery Policy",
+          "type":"PolicyEntity",
+          "uid":"dummy_okta_uid_idp_discovery_policy"
+      },
+      {
+          "data":{
+          },
+          "name":"Default Rule",
+          "type":"PolicyRule",
+          "uid":"dummy_okta_uid_default_rule"
+      }
+  ]
+}

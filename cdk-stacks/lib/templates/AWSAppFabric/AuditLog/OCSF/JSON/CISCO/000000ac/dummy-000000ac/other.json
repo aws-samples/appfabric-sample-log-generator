@@ -1,0 +1,47 @@
+{
+    "activity_id":99,
+    "activity_name":"Other",
+    "actor":{
+        "user":{
+            "email_addr":"akua_mansa@example.com",
+            "name":"Akua Mansa",
+            "type":"User",
+            "type_id":1,
+            "uid":"dummyuidakua"
+        }
+    },
+    "category_name":"Application",
+    "category_uid":6,
+    "class_name":"Web Resources Activity",
+    "class_uid":6001,
+    "device":{
+        "ip":"54.240.196.170",
+        "type":"Unknown",
+        "type_id":0
+    },
+    "message":"akua_mansa@example.com attempted logging into aws-fabric-dummy using client (Developer Portal) and Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36. Login status: SUCCESS. <nothing>",
+    "metadata":{
+        "event_code":"a user attempted logging in",
+        "log_provider":"AWS AppFabric",
+        "log_version":"2023-06-27",
+        "product":{
+            "name":"Cisco",
+            "uid":"cisco",
+            "vendor_name":"Cisco"
+        },
+        "profiles":[
+            "host"
+        ],
+        "uid":"dummyuiduserattemptlogin",
+        "version":"v1.0.0-rc.3"
+    },
+    "raw_data":"{}",
+    "severity_id":0,
+    "status":"Success",
+    "status_id":1,
+    "time":"{timestamp}",
+    "type_name":"Web Resources Activity: Other",
+    "type_uid":600199,
+    "web_resources":[
+    ]
+}

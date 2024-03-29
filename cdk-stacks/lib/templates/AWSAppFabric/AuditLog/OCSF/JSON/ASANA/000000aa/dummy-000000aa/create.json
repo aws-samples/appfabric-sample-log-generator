@@ -1,0 +1,54 @@
+{
+    "activity_id":1,
+    "activity_name":"Create",
+    "actor":{
+        "user":{
+            "email_addr":"arnav_desai@example.com",
+            "name":"Arnav Desai",
+            "type":"User",
+            "type_id":1,
+            "uid":"1234567890123456"
+        }
+    },
+    "category_name":"Identity & Access Management",
+    "category_uid":3,
+    "class_name":"Account Change",
+    "class_uid":3001,
+    "device":{
+        "ip":"52.94.133.137",
+        "type":"Unknown",
+        "type_id":0
+    },
+    "http_request":{
+        "user_agent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+    },
+    "metadata":{
+        "event_code":"service_account_created",
+        "log_provider":"AWS AppFabric",
+        "log_version":"2023-06-27",
+        "product":{
+            "name":"Asana",
+            "uid":"asana",
+            "vendor_name":"Asana"
+        },
+        "profiles":[
+            "host"
+        ],
+        "uid":"dummy_asana_uid_service_account_created",
+        "version":"v1.0.0-rc.3"
+    },
+    "raw_data":"{}",
+    "severity_id":0,
+    "status":"Success",
+    "status_id":1,
+    "time":"{timestamp}",
+    "type_name":"Account Change: Create",
+    "type_uid":300101,
+    "user":{
+        "email_addr":"nikhil_jayashankar@example.com",
+        "name":"Nikhil Jayashankar",
+        "type":"User",
+        "type_id":1,
+        "uid":"1234567890123450"
+    }
+}

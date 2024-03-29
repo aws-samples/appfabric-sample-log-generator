@@ -1,0 +1,51 @@
+{
+    "activity_id":3,
+    "activity_name":"Update",
+    "actor":{
+        "user":{
+            "email_addr":"nikki_wolf@example.com",
+            "name":"Nikki Wolf",
+            "type":"User",
+            "type_id":1,
+            "uid":"0000000000004"
+        }
+    },
+    "category_name":"Application",
+    "category_uid":6,
+    "class_name":"Web Resources Activity",
+    "class_uid":6001,
+    "device":{
+        "type":"Unknown",
+        "type_id":0
+    },
+    "metadata":{
+        "event_code":"FORM - UPDATE",
+        "log_provider":"AWS AppFabric",
+        "log_version":"2023-06-27",
+        "product":{
+            "name":"Smartsheet",
+            "uid":"smartsheet",
+            "vendor_name":"Smartsheet"
+        },
+        "profiles":[
+            "host"
+        ],
+        "uid":"dummy_smartsheet_uid_form_update",
+        "version":"v1.0.0-rc.3"
+    },
+    "raw_data":"{}",
+    "severity_id":0,
+    "status":"Success",
+    "status_id":1,
+    "time":"{timestamp}",
+    "type_name":"Web Resources Activity: Update",
+    "type_uid":600103,
+    "web_resources":[
+        {
+            "data":{
+            },
+            "type":"FORM",
+            "uid":"17000000000000028"
+        }
+    ]
+}

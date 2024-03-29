@@ -1,0 +1,57 @@
+{
+    "activity_id":1,
+    "activity_name":"Create",
+    "actor":{
+        "session":{
+            "uid":"5407468915830"
+        },
+        "user":{
+            "email_addr":"john_doe@example.com",
+            "name":"John Doe",
+            "type":"User",
+            "type_id":1,
+            "uid":"UDUMMYED6C"
+        }
+    },
+    "category_name":"Identity & Access Management",
+    "category_uid":3,
+    "class_name":"Account Change",
+    "class_uid":3001,
+    "device":{
+        "ip":"69.169.224.24",
+        "type":"Unknown",
+        "type_id":0
+    },
+    "http_request":{
+        "user_agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:102.0) Gecko/20100101 Firefox/102.0"
+    },
+    "metadata":{
+        "event_code":"user_created",
+        "log_provider":"AWS AppFabric",
+        "log_version":"2023-06-27",
+        "product":{
+            "name":"Slack",
+            "uid":"slack",
+            "vendor_name":"Slack"
+        },
+        "profiles":[
+            "host"
+        ],
+        "uid":"dummy_slack_uid_user_created",
+        "version":"v1.0.0-rc.3"
+    },
+    "raw_data":"{}",
+    "severity_id":0,
+    "status":"Success",
+    "status_id":1,
+    "time":"{timestamp}",
+    "type_name":"Account Change: Create",
+    "type_uid":300101,
+    "user":{
+        "email_addr":"nikki_wolf@example.com",
+        "name":"Nikki Wolf",
+        "type":"User",
+        "type_id":1,
+        "uid":"UDUMMYG771"
+    }
+}

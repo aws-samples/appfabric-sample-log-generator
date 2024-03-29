@@ -1,0 +1,46 @@
+
+{
+    "activity_id":1,
+    "activity_name":"Create",
+    "actor":{
+        "user":{
+            "email_addr":"jane_doe@example.com",
+            "name":"Jane Doe",
+            "type":"User",
+            "type_id":1
+        }
+    },
+    "category_name":"Application",
+    "category_uid":6,
+    "class_name":"Web Resources Activity",
+    "class_uid":6001,
+    "device":{
+        "type":"Unknown",
+        "type_id":0
+    },
+    "message":"Add Role beta-us-east-1 test role - Role Name: beta-us-east-1 test role - Description: beta-us-east-1 test role - Privilege Item(s): Users View",
+    "metadata":{
+        "event_code":"entity_restapi-add",
+        "log_provider":"AWS AppFabric",
+        "log_version":"2023-06-27",
+        "product":{
+            "name":"Zoom",
+            "uid":"zoom",
+            "vendor_name":"Zoom"
+        },
+        "profiles":[
+            "host"
+        ],
+        "uid":"dummy_zoom_entity_restapi-add",
+        "version":"v1.0.0-rc.3"
+    },
+    "raw_data":"{\"time\":\"{date}T23:57:30Z\"}",
+    "severity_id":0,
+    "status":"Success",
+    "status_id":1,
+    "time":"{timestamp}",
+    "type_name":"Web Resources Activity: Create",
+    "type_uid":600101,
+    "web_resources":[
+    ]
+}

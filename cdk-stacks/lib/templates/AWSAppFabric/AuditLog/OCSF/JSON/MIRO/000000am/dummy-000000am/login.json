@@ -1,0 +1,64 @@
+{
+  "activity_id":1,
+  "activity_name":"Logon",
+  "actor":{
+      "user":{
+          "email_addr":"mary_major@example.com",
+          "name":"Mary Major",
+          "type":"User",
+          "type_id":1,
+          "uid":"12345678901234"
+      }
+  },
+  "auth_protocol":"PASSWORD",
+  "auth_protocol_id":99,
+  "category_name":"Identity & Access Management",
+  "category_uid":3,
+  "class_name":"Authentication",
+  "class_uid":3002,
+  "device":{
+      "ip":"205.251.233.176",
+      "type":"Unknown",
+      "type_id":0
+  },
+  "http_request":{
+  },
+  "is_mfa":false,
+  "metadata":{
+      "event_code":"sign_in_succeeded",
+      "log_provider":"AWS AppFabric",
+      "log_version":"2023-06-27",
+      "product":{
+          "name":"Miro",
+          "uid":"miro",
+          "vendor_name":"Miro"
+      },
+      "profiles":[
+          "host"
+      ],
+      "uid":"2023-01-01T00:00:00.816340Z#00000000000003-DDB",
+      "version":"v1.0.0-rc.3"
+  },
+  "raw_data":"{}",
+  "severity_id":0,
+  "status":"Success",
+  "status_id":1,
+  "time":"{timestamp}",
+  "type_name":"Authentication: Logon",
+  "type_uid":300201,
+  "unmapped":{
+      "other_resources":[
+          {
+              "data":{
+              },
+              "name":"kwaku_mensah@example.com",
+              "type":"Unknown",
+              "uid":"12345678901235"
+          }
+      ]
+  },
+  "user":{
+      "type":"Unknown",
+      "type_id":0
+  }
+}
