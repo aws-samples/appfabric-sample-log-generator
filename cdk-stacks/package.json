@@ -13,7 +13,7 @@
     "install:webapp": "cd ../webapp && npm install",
     "install:cdk-stacks": "npm install",
     "install:lambda-layer": "cd lambda-layer/nodejs && npm install",
-    "install:lambdas": "cd lib/lambdas/handlers/node && npm install",
+    "install:lambdas": "cd lib/lambdas/handlers/logGenerator && npm install",
     "install:all": "npm run install:cdk-stacks && npm run install:lambdas",
     "echo:web-app-root-prefix": "node -e 'var config=require(`./config.params.json`); console.log(`${config.WebAppRootPrefix}`)' ",
     "echo:cdk-frontend-stack-name-param": "node -e 'var config=require(`./config.params.json`); console.log(`${config.hierarchy}outputParameters/CdkFrontendStackName`)' ",
