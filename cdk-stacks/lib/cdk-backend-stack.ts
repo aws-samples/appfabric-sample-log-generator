@@ -73,23 +73,25 @@ export class CdkBackendStack extends Stack {
       timeout: Duration.seconds(120),
     });
 
-    
-    const statements = [
-      new iam.PolicyStatement({
-        effect: iam.Effect.ALLOW,
-        actions: [  
-          "s3:PutObject",         
-          "s3:GetObject",
-          "s3:ListBucket"
-        ],
-        resources: [
-          templatesBucket.bucketArn,
-          `${templatesBucket.bucketArn}/*`,
-          `arn:aws:s3:::${parseS3BucketNameFromUri(ssmParams.appFabricDataSourceS3URI)}`,
-          `arn:aws:s3:::${parseS3BucketNameFromUri(ssmParams.appFabricDataSourceS3URI)}/*`
-        ]
-      }),
-    ];
+    const statements = [];
+    if (ssmParams.appFabricDataSourceS3URI !== 'not-defined') {
+      statements.push(
+        new iam.PolicyStatement({
+          effect: iam.Effect.ALLOW,
+          actions: [  
+            "s3:PutObject",         
+            "s3:GetObject",
+            "s3:ListBucket"
+          ],
+          resources: [
+            templatesBucket.bucketArn,
+            `${templatesBucket.bucketArn}/*`,
+            `arn:aws:s3:::${parseS3BucketNameFromUri(ssmParams.appFabricDataSourceS3URI)}`,
+            `arn:aws:s3:::${parseS3BucketNameFromUri(ssmParams.appFabricDataSourceS3URI)}/*`
+          ]
+        })
+      )
+    }
     if (ssmParams.kinesisFirehoseARN !== 'not-defined') {
       statements.push(
         new iam.PolicyStatement({
