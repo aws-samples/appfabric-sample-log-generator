@@ -108,7 +108,8 @@ def traverse_directories(root_dir, appfabric_bucket_name, appfabric_firehose_arn
 
                 edit_dates(new_file_path, few_days_ago, few_days_ago_timestamp)
 
-                update_json_to_one_line(new_file_path)
+                if 'multiple' not in new_file_path:
+                    update_json_to_one_line(new_file_path)
 
                 print(f"Creating file done: {new_file_path}")
 
@@ -175,6 +176,13 @@ def remove_tmp_directory():
     except Exception as e:
         print(f"Error while removing {tmp_dir}: {str(e)}")
 
+def get_tmp_space_usage():
+    tmp_dir = '/tmp'
+    statvfs = os.statvfs(tmp_dir)
+    # Calculate available space based on block size and available blocks
+    available_space = statvfs.f_frsize * statvfs.f_bavail
+    return available_space
+
 def handler(event, context):
     print("App Version: " + os.environ['APPLICATION_VERSION'])
     print('request: {}'.format(json.dumps(event)))
@@ -192,6 +200,10 @@ def handler(event, context):
 
     # Remove the /tmp/ directory after processing
     remove_tmp_directory()
+
+    # Available space in /tmp/ directory
+    available_space = get_tmp_space_usage()
+    print(f"Available space in /tmp directory: {available_space} bytes")
 
     download_templates_from_s3(bucket_name, target_directory + '/Templates')
     
