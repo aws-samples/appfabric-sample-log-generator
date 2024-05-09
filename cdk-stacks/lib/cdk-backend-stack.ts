@@ -10,6 +10,8 @@ import { NagSuppressions } from 'cdk-nag'
 import * as S3 from "aws-cdk-lib/aws-s3";
 import * as S3Deployment from "aws-cdk-lib/aws-s3-deployment";
 import path = require('path');
+import * as events from "aws-cdk-lib/aws-events";
+import * as targets from "aws-cdk-lib/aws-events-targets";
 const {parseS3BucketNameFromUri} = require('../lib/common/utility');
 
 const configParams = require('../config.params.json');
@@ -111,6 +113,18 @@ export class CdkBackendStack extends Stack {
         statements
     }));
 
+     // Give EventBridge permissions to invoke the Lambda function
+     logGeneratorLambda.grantInvoke(new iam.ServicePrincipal('events.amazonaws.com'));
+
+     // Create a rule to trigger the Lambda function daily at 12 midnight EST
+     const logGeneratorEventRule = new events.Rule(this, 'DailyLambdaTrigger', {
+       schedule: events.Schedule.expression('cron(0 0 * * ? *)'), // Runs daily at 12 midnight GMT (00:00 UTC)
+     });
+ 
+     // Add the Lambda function as a target to the rule
+     logGeneratorEventRule.addTarget(new targets.LambdaFunction(logGeneratorLambda));
+ 
+ 
 
     /**************************************************************************************************************
       * CDK Outputs *
@@ -126,6 +140,10 @@ export class CdkBackendStack extends Stack {
 
     new CfnOutput(this, "logGeneratorLambdaARN", {
       value: logGeneratorLambda.functionArn
+    });
+
+    new CfnOutput(this, "logGeneratorEventRule", {
+      value: logGeneratorEventRule.ruleArn
     });
 
   }
