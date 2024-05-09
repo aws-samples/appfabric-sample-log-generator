@@ -62,6 +62,7 @@ These instructions assume you have completed all the prerequisites, and you have
     - When prompted, provide the following parameters:
         - `appfabric-data-source-s3-uri`: (Optional) The S3 uri of the AppFabric data source. For example, enter s3://MyBucket/. If specified, the solution will output sample logs to this location.
         - `kinesis-firehose-arn`: (Optional) If specified the solution will also inject records into the given Kinesis Firehose ARN
+        - `scheduler-option`: (Optional) Enter 'yes' to enable. If enabled, solution will create an EventBridge schedule to invoke the log generator every week on Monday at 00:00 UTC. The schedule can be changed after deployment by modifying the cron job of the EventBridge rule.
 
 5. Deploy CDK stacks
     - In your terminal navigate to `appfabric-sample-log-generator/cdk-stacks`

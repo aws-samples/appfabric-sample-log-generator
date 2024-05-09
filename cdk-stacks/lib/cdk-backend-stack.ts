@@ -10,6 +10,8 @@ import { NagSuppressions } from 'cdk-nag'
 import * as S3 from "aws-cdk-lib/aws-s3";
 import * as S3Deployment from "aws-cdk-lib/aws-s3-deployment";
 import path = require('path');
+import * as events from "aws-cdk-lib/aws-events";
+import * as targets from "aws-cdk-lib/aws-events-targets";
 const {parseS3BucketNameFromUri} = require('../lib/common/utility');
 
 const configParams = require('../config.params.json');
@@ -26,7 +28,7 @@ export class CdkBackendStack extends Stack {
       },
       {
         id: 'AwsSolutions-L1',
-        reason: 'This a CDK BucketDeployment which spins up a custom resource lambda...we have no control over the pythong version it deploys'
+        reason: 'This a CDK BucketDeployment which spins up a custom resource lambda...we have no control over the python version it deploys'
       },{
         id: 'AwsSolutions-IAM5',
         reason: 'This a CDK BucketDeployment which spins up a custom resource lambda...we have no control over the policy it builds.  This is only used to deploy static files and these templates are only used internally to generate sample test data.'
@@ -111,6 +113,28 @@ export class CdkBackendStack extends Stack {
         statements
     }));
 
+    if (ssmParams.schedulerOption === 'y' || ssmParams.schedulerOption === 'yes') {
+     // Give EventBridge permissions to invoke the Lambda function
+     logGeneratorLambda.grantInvoke(new iam.ServicePrincipal('events.amazonaws.com'));
+
+     // Create a rule to trigger the Lambda function every Monday at 12 midnight UTC
+     const logGeneratorEventRule = new events.Rule(this, 'logGeneratorEventBridgeRule', {
+       schedule: events.Schedule.expression('cron(0 0 ? * MON *)'), // Runs every Monday at midnight GMT (00:00 UTC)
+     });
+ 
+     // Add the Lambda function as a target to the rule
+     logGeneratorEventRule.addTarget(new targets.LambdaFunction(logGeneratorLambda));
+
+     new CfnOutput(this, "logGeneratorEventRule", {
+      value: logGeneratorEventRule.ruleArn
+    });
+    }
+    else {
+      console.log('Scheduler option is not enabled.  No event rule will be created.');
+      new CfnOutput(this, "logGeneratorEventRule", {
+        value: 'Disabled'
+      });
+    }
 
     /**************************************************************************************************************
       * CDK Outputs *
@@ -127,6 +151,5 @@ export class CdkBackendStack extends Stack {
     new CfnOutput(this, "logGeneratorLambdaARN", {
       value: logGeneratorLambda.functionArn
     });
-
   }
 }

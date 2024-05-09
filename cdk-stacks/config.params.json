@@ -14,6 +14,12 @@
             "cliFormat": "kinesis-firehose-arn",
             "description": "(Optional) If specified the solution will also inject records into the given Kinesis Firehose ARN",
             "required": false
+        },
+        {
+            "name": "schedulerOption",
+            "cliFormat": "scheduler-option",
+            "description": "(yes/no) If yes, solution will also create a an EventBridge schedule to invoke the log generator every week on Monday at 00:00 UTC. The schedule can be changed after deployment by modifying the cron job of the EventBridge rule.",
+            "required": false
         }
     ],
     "tags": {
